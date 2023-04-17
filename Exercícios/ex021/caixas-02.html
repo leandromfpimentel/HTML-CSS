@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(121, 165, 150);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0%;
+        }
+
+        header{
+            background-color: rgba(0, 255, 255, 0.329);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        section>article{
+            background-color: rgba(12, 107, 107, 0.445);
+            padding: 10px;
+        }
+         
+
+        footer>p{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+            padding: 5px;
+        }
+
+        nav{
+            background-color: rgb(87, 87, 114);
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
+        }
+
+        nav>a{
+            padding-right: 40px;
+            text-decoration: none;
+            color: rgb(253, 253, 255);
+        }
+        nav>a:hover{
+            text-decoration:none;
+            color: rgb(56, 59, 59);
+        }
+
+        aside{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Notícias</a>
+            <a href="#">Imagens</a>
+            <a href="#">Vídeos</a>
+            <a href="#">Informaçoes</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+           
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sit voluptatum illum officiis quaerat corporis facilis modi aspernatur accusantium impedit, enim voluptas magni excepturi dolorum sapiente praesentium fuga adipisci quo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui totam, fugiat quos, commodi est hic illum maxime labore ullam explicabo iure laudantium iusto autem dolor magnam blanditiis minima eligendi aliquid.</p>
+                   <aside>
+                    <p>Artigo escrito por João</p>
+                   </aside>
+            </article>
+
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Leandro Pimentel</p>
+    </footer>
+</body>
+</html>
